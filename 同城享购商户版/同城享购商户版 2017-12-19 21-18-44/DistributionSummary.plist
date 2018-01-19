@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>同城享购商户版.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<true/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>947D44EA09EB399C99D4B189DD07811C78C4DDCA</string>
+				<key>dateExpires</key>
+				<string>2018/12/19</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>LUH7Q7VWNM.com.tongchengxianggou.shop</string>
+				<key>aps-environment</key>
+				<string>production</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>LUH7Q7VWNM</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>同城享购商户版.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>1ec0f4d4-2e42-43b2-92cf-db8d42dcc79c</string>
+				<key>name</key>
+				<string>tcxgshopPro</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>LUH7Q7VWNM</string>
+				<key>name</key>
+				<string>Huaian Meijia  Electronic Commerce  Co. Ltd.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="advViewController">
+            <connections>
+                <outlet property="advText" destination="5B5-s8-ePL" id="jfK-RH-BYz"/>
+                <outlet property="submitBtn" destination="W6z-VG-oF7" id="a7b-6e-R21"/>
+                <outlet property="topConstraint" destination="EPW-Nq-0lS" id="RJa-Of-oiL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5B5-s8-ePL">
+                    <rect key="frame" x="20" y="84" width="335" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="oRW-cy-qW0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W6z-VG-oF7">
+                    <rect key="frame" x="40" y="204" width="295" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="AVI-Rc-s4w"/>
+                    </constraints>
+                    <state key="normal" title="提交">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="advPress:" destination="-1" eventType="touchUpInside" id="zhe-ok-3wy"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="W6z-VG-oF7" secondAttribute="trailing" constant="40" id="63u-x8-wuI"/>
+                <constraint firstItem="W6z-VG-oF7" firstAttribute="top" secondItem="5B5-s8-ePL" secondAttribute="bottom" constant="20" id="6lb-kQ-htv"/>
+                <constraint firstItem="5B5-s8-ePL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="84" id="EPW-Nq-0lS"/>
+                <constraint firstItem="W6z-VG-oF7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="QGQ-FB-Tc8"/>
+                <constraint firstItem="5B5-s8-ePL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="cgN-my-VMX"/>
+                <constraint firstAttribute="trailing" secondItem="5B5-s8-ePL" secondAttribute="trailing" constant="20" id="hit-pL-Nqr"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

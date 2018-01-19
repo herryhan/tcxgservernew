@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="8Fz-0d-UpL" customClass="cashOrderView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37e-y0-5KF">
+                    <rect key="frame" x="10" y="10" width="197" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="kbO-ry-0z1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="plH-2X-iN7">
+                    <rect key="frame" x="301" y="10" width="64" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Qa7-fI-n0c"/>
+                        <constraint firstAttribute="width" constant="64" id="VNc-Ft-3bQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6c-Qr-aHc">
+                    <rect key="frame" x="227" y="10" width="64" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="2Dr-M8-Gd9"/>
+                        <constraint firstAttribute="width" constant="64" id="Gvf-c5-0OO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="37e-y0-5KF" firstAttribute="leading" secondItem="8Fz-0d-UpL" secondAttribute="leading" constant="10" id="6PG-6F-oai"/>
+                <constraint firstItem="plH-2X-iN7" firstAttribute="leading" secondItem="k6c-Qr-aHc" secondAttribute="trailing" constant="10" id="GAb-eX-epL"/>
+                <constraint firstAttribute="trailing" secondItem="plH-2X-iN7" secondAttribute="trailing" constant="10" id="TKw-m5-Mme"/>
+                <constraint firstItem="k6c-Qr-aHc" firstAttribute="leading" secondItem="37e-y0-5KF" secondAttribute="trailing" constant="20" id="Wcs-4I-lJp"/>
+                <constraint firstItem="k6c-Qr-aHc" firstAttribute="top" secondItem="8Fz-0d-UpL" secondAttribute="top" constant="10" id="d3l-lU-oSn"/>
+                <constraint firstItem="37e-y0-5KF" firstAttribute="top" secondItem="8Fz-0d-UpL" secondAttribute="top" constant="10" id="fzS-fk-fde"/>
+                <constraint firstItem="plH-2X-iN7" firstAttribute="top" secondItem="8Fz-0d-UpL" secondAttribute="top" constant="10" id="svC-KA-DUO"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="orderNum" destination="37e-y0-5KF" id="O9J-ul-88g"/>
+                <outlet property="payMoneyLabel" destination="k6c-Qr-aHc" id="5bX-mA-wdK"/>
+                <outlet property="shopGetLabel" destination="plH-2X-iN7" id="4PF-AN-YfZ"/>
+            </connections>
+            <point key="canvasLocation" x="-295" y="203"/>
+        </view>
+    </objects>
+</document>

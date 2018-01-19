@@ -1,0 +1,531 @@
+2017-12-18 06:40:12 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fab40e3ef50; archive(resolved)='<IDEArchive: 0x7fab38ccbb50>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7fab40daa8b0>', team(resolved)='<IDEProvisioningBasicTeam 0x7fab29295920: teamID: FX8NJE243U, teamName: BiYing Xu>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fab40e3ef50; archive = '<IDEArchive: 0x7fab38ccbb50>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fab40daa8b0>', team='<IDEProvisioningBasicTeam 0x7fab29295920: teamID: FX8NJE243U, teamName: BiYing Xu>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fab39e8c120; archive = '<IDEArchive: 0x7fab38ccbb50>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fab40daa8b0>', team='<IDEProvisioningBasicTeam 0x7fab29295920: teamID: FX8NJE243U, teamName: BiYing Xu>'>
+	<IDEDistributionContext: 0x7fab40e47490; archive = '<IDEArchive: 0x7fab38ccbb50>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fab40daa8b0>', team='<IDEProvisioningBasicTeam 0x7fab29295920: teamID: FX8NJE243U, teamName: BiYing Xu>'>
+	<IDEDistributionContext: 0x7fab2814a550; archive = '<IDEArchive: 0x7fab38ccbb50>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fab40daa8b0>', team='<IDEProvisioningBasicTeam 0x7fab29295920: teamID: FX8NJE243U, teamName: BiYing Xu>'>
+	<IDEDistributionContext: 0x7fab40b7ed10; archive = '<IDEArchive: 0x7fab38ccbb50>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fab40daa8b0>', team='<IDEProvisioningBasicTeam 0x7fab29295920: teamID: FX8NJE243U, teamName: BiYing Xu>'>
+	<IDEDistributionContext: 0x7fab418ba1a0; archive = '<IDEArchive: 0x7fab38ccbb50>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fab40daa8b0>', team='<IDEProvisioningBasicTeam 0x7fab29295920: teamID: FX8NJE243U, teamName: BiYing Xu>'>
+	<IDEDistributionContext: 0x7fab42e36330; archive = '<IDEArchive: 0x7fab38ccbb50>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fab40daa8b0>', team='<IDEProvisioningBasicTeam 0x7fab29295920: teamID: FX8NJE243U, teamName: BiYing Xu>'>
+	<IDEDistributionContext: 0x7fab44c4dad0; archive = '<IDEArchive: 0x7fab38ccbb50>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fab40daa8b0>', team='<IDEProvisioningBasicTeam 0x7fab29295920: teamID: FX8NJE243U, teamName: BiYing Xu>'>
+	<IDEDistributionContext: 0x7fab3aeea170; archive = '<IDEArchive: 0x7fab38ccbb50>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fab40daa8b0>', team='<IDEProvisioningBasicTeam 0x7fab29295920: teamID: FX8NJE243U, teamName: BiYing Xu>'>
+	<IDEDistributionContext: 0x7fab40eb7730; archive = '<IDEArchive: 0x7fab38ccbb50>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fab40daa8b0>', team='(null)'>
+	<IDEDistributionContext: 0x7fab29c0b730; archive = '<IDEArchive: 0x7fab38ccbb50>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fab40e3ef50>
+2017-12-18 06:40:12 +0000  Processing step: IDEDistributionCreateDestRootStep
+2017-12-18 06:40:12 +0000  Processing step: IDEDistributionCopyItemStep
+2017-12-18 06:40:12 +0000  Running /usr/bin/ditto '-V' '/Users/hanxianwei/Library/Developer/Xcode/Archives/2017-12-18/再战皇城 2017-12-18 下午2.34.xcarchive/Products/Applications/再战皇城.app' '/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/XcodeDistPipeline.MxE/Root/Payload/再战皇城.app'
+2017-12-18 06:40:12 +0000  >>> Copying /Users/hanxianwei/Library/Developer/Xcode/Archives/2017-12-18/再战皇城 2017-12-18 下午2.34.xcarchive/Products/Applications/再战皇城.app 
+2017-12-18 06:40:12 +0000  copying file ./_CodeSignature/CodeResources ... 
+2017-12-18 06:40:12 +0000  10841 bytes for ./_CodeSignature/CodeResources
+2017-12-18 06:40:12 +0000  copying file ./AppIcon20x20@2x.png ... 
+5396 bytes for ./AppIcon20x20@2x.png
+copying file ./AppIcon20x20@2x~ipad.png ... 
+2017-12-18 06:40:12 +0000  5396 bytes for ./AppIcon20x20@2x~ipad.png
+copying file ./AppIcon20x20@3x.png ... 
+2017-12-18 06:40:12 +0000  10308 bytes for ./AppIcon20x20@3x.png
+copying file ./AppIcon20x20~ipad.png ... 
+2017-12-18 06:40:12 +0000  2149 bytes for ./AppIcon20x20~ipad.png
+copying file ./AppIcon29x29@2x.png ... 
+2017-12-18 06:40:12 +0000  9759 bytes for ./AppIcon29x29@2x.png
+copying file ./AppIcon29x29@2x~ipad.png ... 
+2017-12-18 06:40:12 +0000  9759 bytes for ./AppIcon29x29@2x~ipad.png
+copying file ./AppIcon29x29@3x.png ... 
+2017-12-18 06:40:12 +0000  20133 bytes for ./AppIcon29x29@3x.png
+copying file ./AppIcon29x29~ipad.png ... 
+3330 bytes for ./AppIcon29x29~ipad.png
+copying file ./AppIcon40x40@2x.png ... 
+17401 bytes for ./AppIcon40x40@2x.png
+2017-12-18 06:40:12 +0000  copying file ./AppIcon40x40@2x~ipad.png ... 
+17401 bytes for ./AppIcon40x40@2x~ipad.png
+copying file ./AppIcon40x40@3x.png ... 
+36245 bytes for ./AppIcon40x40@3x.png
+copying file ./AppIcon40x40~ipad.png ... 
+2017-12-18 06:40:12 +0000  5396 bytes for ./AppIcon40x40~ipad.png
+copying file ./AppIcon60x60@3x.png ... 
+76432 bytes for ./AppIcon60x60@3x.png
+copying file ./AppIcon76x76@2x~ipad.png ... 
+2017-12-18 06:40:12 +0000  56183 bytes for ./AppIcon76x76@2x~ipad.png
+copying file ./AppIcon76x76~ipad.png ... 
+15904 bytes for ./AppIcon76x76~ipad.png
+copying file ./AppIcon83.5x83.5@2x~ipad.png ... 
+66725 bytes for ./AppIcon83.5x83.5@2x~ipad.png
+copying file ./archived-expanded-entitlements.xcent ... 
+374 bytes for ./archived-expanded-entitlements.xcent
+copying file ./Assets.car ... 
+2017-12-18 06:40:12 +0000  4889752 bytes for ./Assets.car
+2017-12-18 06:40:12 +0000  2017-12-18 06:40:12 +0000  /usr/bin/ditto exited with 0
+
+2017-12-18 06:40:12 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2302 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+1790 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+916 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./embedded.mobileprovision ... 
+8167 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+1485 bytes for ./Info.plist
+copying file ./PageControlCollectionViewCell.nib ... 
+1283 bytes for ./PageControlCollectionViewCell.nib
+copying file ./PageControlView.nib ... 
+1905 bytes for ./PageControlView.nib
+copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+copying file ./再战皇城 ... 
+375808 bytes for ./再战皇城
+2017-12-18 06:40:12 +0000  Processing step: IDEDistributionEmbedProfileStep
+2017-12-18 06:40:12 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2017-12-18 06:40:12 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2017-12-18 06:40:12 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2017-12-18 06:40:12 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool '/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/XcodeDistPipeline.MxE/Root' '--json' '/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool-json-filepath-mr9vP3' '--compile-bitcode' '--output' '/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/IDEIPAProcessor.AppThinning.DIl' '--toolchain' '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr' '--platforms' '/Applications/Xcode.app/Contents/Developer/Platforms'
+2017-12-18 06:40:12 +0000  ruby 2.3.3p222 (2016-11-21 revision 56859) [universal.x86_64-darwin17]
+2017-12-18 06:40:12 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1594: warning: assigned but unused variable - minVersion
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1594: warning: assigned but unused variable - sdkVersion
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1603: warning: assigned but unused variable - sourceVersion
+2017-12-18 06:40:12 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1705: warning: shadowing outer local variable - node
+2017-12-18 06:40:12 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2472: warning: shadowing outer local variable - machoFile
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2472: warning: shadowing outer local variable - machoImage
+2017-12-18 06:40:12 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2499: warning: key :hasBitcode is duplicated and overwritten on line 2501
+2017-12-18 06:40:12 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2664: warning: assigned but unused variable - flag
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2664: warning: assigned but unused variable - transformer
+2017-12-18 06:40:12 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2914: warning: assigned but unused variable - exc
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:739: warning: assigned but unused variable - output
+2017-12-18 06:40:12 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/type.rb:8: warning: method redefined; discarding old annotation
+2017-12-18 06:40:12 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/element.rb:18: warning: method redefined; discarding old annotation
+2017-12-18 06:40:12 +0000  OS X 10.13.1 17B1003
+2017-12-18 06:40:12 +0000  
+ENV: {"PATH"=>"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin", "COMMAND_MODE"=>"unix2003", "TMPDIR"=>"/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/", "LOGNAME"=>"hanxianwei", "MallocNanoZone"=>"0", "HOME"=>"/Users/hanxianwei", "XPC_FLAGS"=>"0x0", "Apple_PubSub_Socket_Render"=>"/private/tmp/com.apple.launchd.nHnpQ9lqtP/Render", "USER"=>"hanxianwei", "SSH_AUTH_SOCK"=>"/private/tmp/com.apple.launchd.0DRcYDEcYJ/Listeners", "SECURITYSESSIONID"=>"186a6", "XPC_SERVICE_NAME"=>"com.apple.xpc.launchd.oneshot.0x10000002.Xcode", "SHELL"=>"/bin/bash", "__CF_USER_TEXT_ENCODING"=>"0x1F5:0x19:0x34"}
+ARGV: ["/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/XcodeDistPipeline.MxE/Root", "--json", "/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool-json-filepath-mr9vP3", "--compile-bitcode", "--output", "/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/IDEIPAProcessor.AppThinning.DIl", "--toolchain", "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr", "--platforms", "/Applications/Xcode.app/Contents/Developer/Platforms"]
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:101: warning: method redefined; discarding old to_h
+2017-12-18 06:40:12 +0000  warning: Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2017-12-18 06:40:12 +0000  warning: Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2017-12-18 06:40:12 +0000  warning: Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2017-12-18 06:40:12 +0000  Scanning IPA...
+2017-12-18 06:40:12 +0000  Complete LinkageGraph:
+    再战皇城.app/再战皇城 armv7 ->
+    
+    再战皇城.app/再战皇城 arm64 ->
+2017-12-18 06:40:12 +0000  Validating IPA structure...
+2017-12-18 06:40:13 +0000  Compiling bitcode...
+2017-12-18 06:40:13 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk -o /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/armv7/Payload/\再\战\皇\城.app/\再\战\皇\城 --generate-dsym /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/armv7/Payload/\再\战\皇\城.app/\再\战\皇\城.dSYM --strip-swift-symbols /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/armv7/Payload/\再\战\皇\城.app/\再\战\皇\城
+2017-12-18 06:40:13 +0000    Compiling bitcode for armv7...
+    Compiling armv7 bitcode in '\再\战\皇\城'
+2017-12-18 06:40:14 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 1249 exit 0
+    Stdout:
+        Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk
+        Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+        MachoInfo: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/armv7/Payload/再战皇城.app/再战皇城" 
+        -= Output =-
+        Non-fat file: /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/armv7/Payload/再战皇城.app/再战皇城 is architecture: armv7
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/armv7/Payload/再战皇城.app/再战皇城" 
+        -= Output =-
+        UUID: 86581899-FF0A-39FB-8037-6EB32608C15D (armv7) /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/armv7/Payload/再战皇城.app/再战皇城
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
+        ExtractXAR: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/armv7/Payload/再战皇城.app/再战皇城" "-extract" "__LLVM" "__bundle" "/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/再战皇城fO8p7u/再战皇城.armv7.xar" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Bitcode bundle version: 1.0
+        Debug: Setting platform to: iPhoneOS
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        Clang: cd /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/tempISEojA
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "1" "-o" "1.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/tempISEojA
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "2" "-o" "2.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/tempISEojA
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "3" "-o" "3.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/tempISEojA
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-
+2017-12-18 06:40:14 +0000  triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "4" "-o" "4.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/tempISEojA
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "5" "-o" "5.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libSystem.B.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd
+        Ld: cd /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/tempISEojA
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "armv7" "-execute" "-ios_version_min" "9.0.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/hanxianwei/Library/Developer/Xcode/DerivedData/再战皇城-bnqgmvzhvjhdsugcmjfuxagxgzbo/Build/Intermediates.noindex/ArchiveIntermediates/再战皇城/IntermediateBuildFilesPath/再战皇城.build/Release-iphoneos/再战皇城.build/Objects-normal/armv7/再战皇城" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk" "-sdk_version" "11.1.0" "-filelist" "/private/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/再战皇城fO8p7u/再战皇城.armv7.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/再战皇城fO8p7u/再战皇城.armv7.out" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/armv7/Payload/再战皇城.app/再战皇城
+        
+        Debug: Co
+2017-12-18 06:40:14 +0000  mmand took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+        Debug: Command took 0 seconds
+    
+    Stderr:
+        Traceback (most recent call last):
+          File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py", line 859, in emit
+            msg = self.format(record)
+          File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py", line 732, in format
+            return fmt.format(record)
+          File "/Applications/Xcode.app/Contents/Developer/usr/bin/../lib/bitcode_build_tool/buildenv.py", line 44, in format
+            return super(LogFormatter, self).format(record)
+          File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py", line 474, in format
+            s = self._fmt % record.__dict__
+          File "/Applications/Xcode.app/Contents/Developer/usr/bin/../lib/bitcode_build_tool/cmdtool.py", line 31, in __repr__
+            cmd_string += u"\"" + c + "\" "
+        UnicodeDecodeError: 'ascii' codec can't decode byte 0xe5 in position 100: ordinal not in range(128)
+        Logged from file buildenv.py, line 167
+        Traceback (most recent call last):
+          File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py", line 859, in emit
+            msg = self.format(record)
+          File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py", line 732, in format
+            return fmt.format(record)
+          File "/Applications/Xcode.app/Contents/Developer/usr/bin/../lib/bitcode_build_tool/buildenv.py", line 44, in format
+            return super(LogFormatter, self).format(record)
+          File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py", line 474, in format
+            s = self._fmt % record.__dict__
+          File "/Applications/Xcode.app/Contents/Developer/usr/bin/../lib/bitcode_build_tool/cmdtool.py", line 31, in __repr__
+            cmd_string += u"\"" + c + "\" "
+        UnicodeDecodeError: 'ascii' codec can't decode byte 0xe5 in position 100: ordinal not in range(128)
+        Logged from file buildenv.py, line 167
+        Traceback (most recent call last):
+          File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py", line 859, in emit
+            msg = self.format(record)
+          File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py", line 732, in format
+            return fmt.format(record)
+          File "/Applications/Xcode.app/Contents/Developer/usr/bin/../lib/bitcode_build_tool/buildenv.py", line 44, in format
+            return super(LogFormatter, self).format(record)
+          File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py", line 474, in format
+            s = self._fmt % record.__dict__
+          File "/Applications/Xcode.app/Contents/Developer/usr/bin/../lib/bitcode_build_tool/cmdtool.py", line 31, in __repr__
+            cmd_string += u"\"" + c + "\" "
+        UnicodeDecodeError: 'ascii' codec can't decode byte 0xe5 in position 100: ordinal not in range(128)
+        Logged from file buildenv.py, line 167
+/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/armv7/Payload/\再\战\皇\城.app /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/armv7/Payload/\再\战\皇\城.app/\再\战\皇\城
+2017-12-18 06:40:14 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 1267 exit 0
+    Stdout:
+        /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/armv7/Payload/再战皇城.app/再战皇城 [armv7, 0.042819 seconds]:
+    
+    Stderr:
+2017-12-18 06:40:14 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk -o /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/arm64/Payload/\再\战\皇\城.app/\再\战\皇\城 --generate-dsym /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/arm64/Payload/\再\战\皇\城.app/\再\战\皇\城.dSYM --strip-swift-symbols /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/arm64/Payload/\再\战\皇\城.app/\再\战\皇\城
+2017-12-18 06:40:14 +0000    Compiling bitcode for arm64...
+    Compiling arm64 bitcode in '\再\战\皇\城'
+2017-12-18 06:40:15 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 1276 exit 0
+    Stdout:
+        Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk
+        Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+        MachoInfo: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/arm64/Payload/再战皇城.app/再战皇城" 
+        -= Output =-
+        Non-fat file: /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/arm64/Payload/再战皇城.app/再战皇城 is architecture: arm64
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/arm64/Payload/再战皇城.app/再战皇城" 
+        -= Output =-
+        UUID: FBBC23B5-1E1F-344C-99BB-7187729414EA (arm64) /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/arm64/Payload/再战皇城.app/再战皇城
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
+        ExtractXAR: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/arm64/Payload/再战皇城.app/再战皇城" "-extract" "__LLVM" "__bundle" "/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/再战皇城fWbDjV/再战皇城.arm64.xar" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Bitcode bundle version: 1.0
+        Debug: Setting platform to: iPhoneOS
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        Clang: cd /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/temp9le50d
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "1" "-o" "1.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/temp9le50d
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "2" "-o" "2.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/temp9le50d
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "3" "-o" "3.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/temp9le50d
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" 
+2017-12-18 06:40:15 +0000  "-target-abi" "darwinpcs" "-Os" "-x" "ir" "4" "-o" "4.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/temp9le50d
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "5" "-o" "5.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libSystem.B.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd
+        Ld: cd /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/temp9le50d
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "arm64" "-execute" "-ios_version_min" "9.0.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/hanxianwei/Library/Developer/Xcode/DerivedData/再战皇城-bnqgmvzhvjhdsugcmjfuxagxgzbo/Build/Intermediates.noindex/ArchiveIntermediates/再战皇城/IntermediateBuildFilesPath/再战皇城.build/Release-iphoneos/再战皇城.build/Objects-normal/arm64/再战皇城" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk" "-sdk_version" "11.1.0" "-filelist" "/private/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/再战皇城fWbDjV/再战皇城.arm64.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/再战皇城fWbDjV/再战皇城.arm64.out" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/arm64/Payload/再战皇城.app/再战皇城
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.
+2017-12-18 06:40:15 +0000  xctoolchain/usr/bin/dsymutil
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+        Debug: Command took 0 seconds
+    
+    Stderr:
+        Traceback (most recent call last):
+          File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py", line 859, in emit
+            msg = self.format(record)
+          File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py", line 732, in format
+            return fmt.format(record)
+          File "/Applications/Xcode.app/Contents/Developer/usr/bin/../lib/bitcode_build_tool/buildenv.py", line 44, in format
+            return super(LogFormatter, self).format(record)
+          File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py", line 474, in format
+            s = self._fmt % record.__dict__
+          File "/Applications/Xcode.app/Contents/Developer/usr/bin/../lib/bitcode_build_tool/cmdtool.py", line 31, in __repr__
+            cmd_string += u"\"" + c + "\" "
+        UnicodeDecodeError: 'ascii' codec can't decode byte 0xe5 in position 100: ordinal not in range(128)
+        Logged from file buildenv.py, line 167
+        Traceback (most recent call last):
+          File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py", line 859, in emit
+            msg = self.format(record)
+          File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py", line 732, in format
+            return fmt.format(record)
+          File "/Applications/Xcode.app/Contents/Developer/usr/bin/../lib/bitcode_build_tool/buildenv.py", line 44, in format
+            return super(LogFormatter, self).format(record)
+          File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py", line 474, in format
+            s = self._fmt % record.__dict__
+          File "/Applications/Xcode.app/Contents/Developer/usr/bin/../lib/bitcode_build_tool/cmdtool.py", line 31, in __repr__
+            cmd_string += u"\"" + c + "\" "
+        UnicodeDecodeError: 'ascii' codec can't decode byte 0xe5 in position 100: ordinal not in range(128)
+        Logged from file buildenv.py, line 167
+        Traceback (most recent call last):
+          File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py", line 859, in emit
+            msg = self.format(record)
+          File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py", line 732, in format
+            return fmt.format(record)
+          File "/Applications/Xcode.app/Contents/Developer/usr/bin/../lib/bitcode_build_tool/buildenv.py", line 44, in format
+            return super(LogFormatter, self).format(record)
+          File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py", line 474, in format
+            s = self._fmt % record.__dict__
+          File "/Applications/Xcode.app/Contents/Developer/usr/bin/../lib/bitcode_build_tool/cmdtool.py", line 31, in __repr__
+            cmd_string += u"\"" + c + "\" "
+        UnicodeDecodeError: 'ascii' codec can't decode byte 0xe5 in position 100: ordinal not in range(128)
+        Logged from file buildenv.py, line 167
+/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/arm64/Payload/\再\战\皇\城.app /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/arm64/Payload/\再\战\皇\城.app/\再\战\皇\城
+2017-12-18 06:40:15 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 1294 exit 0
+    Stdout:
+        /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/ipatool20171218-1146-1lydylf/thinned/arm64/Payload/再战皇城.app/再战皇城 [arm64, 0.005619 seconds]:
+    
+    Stderr:
+2017-12-18 06:40:15 +0000  Creating universal IPA contents for all devices
+  Creating directory /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/IDEIPAProcessor.AppThinning.DIl/universal
+  Copying 再战皇城.app output payload directory
+2017-12-18 06:40:15 +0000  /Library/Ruby/Gems/2.3.0/gems/CFPropertyList-2.3.5/lib/cfpropertylist/rbCFPropertyList.rb:394: warning: File.exists? is a deprecated name, use File.exist? instead
+2017-12-18 06:40:15 +0000    Copying .dSYM files to /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/IDEIPAProcessor.AppThinning.DIl/universal/dSYMs
+  Copying .symbols files to /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/IDEIPAProcessor.AppThinning.DIl/universal/Symbols
+2017-12-18 06:40:15 +0000  2017-12-18 06:40:15 +0000  
+
+2017-12-18 06:40:15 +0000  
+2017-12-18 06:40:15 +0000  
+2017-12-18 06:40:15 +0000  
+2017-12-18 06:40:15 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool exited with 02017-12-18 06:40:15 +0000  
+
+2017-12-18 06:40:15 +0000  
+2017-12-18 06:40:15 +0000  ipatool JSON: {
+    alerts =     (
+                {
+            code = 2819;
+            description = "Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2819;
+            description = "Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2819;
+            description = "Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        }
+    );
+    thinnableAssetCatalogs =     (
+        "/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/XcodeDistPipeline.MxE/Root/Payload/\U518d\U6218\U7687\U57ce.app/Assets.car"
+    );
+    universalIPA =     {
+        path = "/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/IDEIPAProcessor.AppThinning.DIl/universal";
+    };
+}
+2017-12-18 06:40:15 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2017-12-18 06:40:15 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2017-12-18 06:40:15 +0000  Processing step: IDEDistributionSymbolsStep
+2017-12-18 06:40:15 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-18 06:40:15 +0000  Processing step: IDEDistributionAppThinningStep
+2017-12-18 06:40:15 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2017-12-18 06:40:15 +0000  Processing step: IDEDistributionODRStep
+2017-12-18 06:40:15 +0000  Processing step: IDEDistributionStripXattrsStep
+2017-12-18 06:40:15 +0000  Running /usr/bin/xattr '-crs' '/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/XcodeDistPipeline.MxE/Root/Payload/再战皇城.app'
+2017-12-18 06:40:15 +0000  
+2017-12-18 06:40:15 +0000  
+2017-12-18 06:40:15 +0000  /usr/bin/xattr exited with 0
+2017-12-18 06:40:15 +0000  
+2017-12-18 06:40:15 +0000  Processing step: IDEDistributionCodesignStep
+2017-12-18 06:40:15 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fab3a48b2c0 'xby.huangcheng.xby' '<DVTFilePath:0x7fab2930e280:'/Users/hanxianwei/Library/Developer/Xcode/Archives/2017-12-18/再战皇城 2017-12-18 下午2.34.xcarchive/Products/Applications/再战皇城.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fab29c237d0>: {
+}
+2017-12-18 06:40:15 +0000  Entitlements for <IDEDistributionItem: 0x7fab3a48b2c0 'xby.huangcheng.xby' '<DVTFilePath:0x7fab2930e280:'/Users/hanxianwei/Library/Developer/Xcode/Archives/2017-12-18/再战皇城 2017-12-18 下午2.34.xcarchive/Products/Applications/再战皇城.app'>'>: {
+    "application-identifier" = "FX8NJE243U.xby.huangcheng.xby";
+    "com.apple.developer.team-identifier" = FX8NJE243U;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "FX8NJE243U.xby.huangcheng.xby"
+    );
+}
+2017-12-18 06:40:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fab3a48b2c0 'xby.huangcheng.xby' '<DVTFilePath:0x7fab2930e280:'/Users/hanxianwei/Library/Developer/Xcode/Archives/2017-12-18/再战皇城 2017-12-18 下午2.34.xcarchive/Products/Applications/再战皇城.app'>'> to: /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/XcodeDistPipeline.MxE/entitlementsw3TT7X
+2017-12-18 06:40:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7E7E6A558F238C9DA6FD489BCA2D94656447D8F4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/XcodeDistPipeline.MxE/entitlementsw3TT7X' '/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/XcodeDistPipeline.MxE/Root/Payload/再战皇城.app'
+2017-12-18 06:40:16 +0000  /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/XcodeDistPipeline.MxE/Root/Payload/再战皇城.app: signed app bundle with Mach-O universal (armv7 arm64) [xby.huangcheng.xby]
+2017-12-18 06:40:16 +0000  2017-12-18 06:40:16 +0000  
+
+2017-12-18 06:40:16 +0000  2017-12-18 06:40:16 +0000  
+
+2017-12-18 06:40:16 +0000  /usr/bin/codesign exited with 0
+2017-12-18 06:40:16 +0000  2017-12-18 06:40:16 +0000  
+
+2017-12-18 06:40:16 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2017-12-18 06:40:16 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-18 06:40:16 +0000  Processing step: IDEDistributionCreateIPAStep
+2017-12-18 06:40:16 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/XcodeDistPipeline.MxE/Root' '/var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/XcodeDistPipeline.MxE/Packages/再战皇城.ipa'
+2017-12-18 06:40:16 +0000  >>> Copying /var/folders/vk/4rskl5094xd46tgfv2crxvyc0000gn/T/XcodeDistPipeline.MxE/Root 
+2017-12-18 06:40:16 +0000  copying file ./Payload/再战皇城.app/_CodeSignature/CodeResources ... 
+2017-12-18 06:40:16 +0000  10841 bytes for ./Payload/再战皇城.app/_CodeSignature/CodeResources
+copying file ./Payload/再战皇城.app/AppIcon20x20@2x.png ... 
+2017-12-18 06:40:16 +0000  5396 bytes for ./Payload/再战皇城.app/AppIcon20x20@2x.png
+copying file ./Payload/再战皇城.app/AppIcon20x20@2x~ipad.png ... 
+2017-12-18 06:40:16 +0000  5396 bytes for ./Payload/再战皇城.app/AppIcon20x20@2x~ipad.png
+copying file ./Payload/再战皇城.app/AppIcon20x20@3x.png ... 
+2017-12-18 06:40:16 +0000  10308 bytes for ./Payload/再战皇城.app/AppIcon20x20@3x.png
+copying file ./Payload/再战皇城.app/AppIcon20x20~ipad.png ... 
+2149 bytes for ./Payload/再战皇城.app/AppIcon20x20~ipad.png
+copying file ./Payload/再战皇城.app/AppIcon29x29@2x.png ... 
+2017-12-18 06:40:16 +0000  9759 bytes for ./Payload/再战皇城.app/AppIcon29x29@2x.png
+copying file ./Payload/再战皇城.app/AppIcon29x29@2x~ipad.png ... 
+2017-12-18 06:40:16 +0000  9759 bytes for ./Payload/再战皇城.app/AppIcon29x29@2x~ipad.png
+copying file ./Payload/再战皇城.app/AppIcon29x29@3x.png ... 
+2017-12-18 06:40:16 +0000  20133 bytes for ./Payload/再战皇城.app/AppIcon29x29@3x.png
+2017-12-18 06:40:16 +0000  copying file ./Payload/再战皇城.app/AppIcon29x29~ipad.png ... 
+3330 bytes for ./Payload/再战皇城.app/AppIcon29x29~ipad.png
+copying file ./Payload/再战皇城.app/AppIcon40x40@2x.png ... 
+2017-12-18 06:40:16 +0000  17401 bytes for ./Payload/再战皇城.app/AppIcon40x40@2x.png
+copying file ./Payload/再战皇城.app/AppIcon40x40@2x~ipad.png ... 
+2017-12-18 06:40:16 +0000  17401 bytes for ./Payload/再战皇城.app/AppIcon40x40@2x~ipad.png
+2017-12-18 06:40:16 +0000  copying file ./Payload/再战皇城.app/AppIcon40x40@3x.png ... 
+2017-12-18 06:40:16 +0000  36245 bytes for ./Payload/再战皇城.app/AppIcon40x40@3x.png
+copying file ./Payload/再战皇城.app/AppIcon40x40~ipad.png ... 
+2017-12-18 06:40:16 +0000  5396 bytes for ./Payload/再战皇城.app/AppIcon40x40~ipad.png
+copying file ./Payload/再战皇城.app/AppIcon60x60@3x.png ... 
+2017-12-18 06:40:16 +0000  76432 bytes for ./Payload/再战皇城.app/AppIcon60x60@3x.png
+copying file ./Payload/再战皇城.app/AppIcon76x76@2x~ipad.png ... 
+2017-12-18 06:40:16 +0000  56183 bytes for ./Payload/再战皇城.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/再战皇城.app/AppIcon76x76~ipad.png ... 
+2017-12-18 06:40:16 +0000  15904 bytes for ./Payload/再战皇城.app/AppIcon76x76~ipad.png
+copying file ./Payload/再战皇城.app/AppIcon83.5x83.5@2x~ipad.png ... 
+2017-12-18 06:40:16 +0000  66725 bytes for ./Payload/再战皇城.app/AppIcon83.5x83.5@2x~ipad.png
+2017-12-18 06:40:16 +0000  copying file ./Payload/再战皇城.app/archived-expanded-entitlements.xcent ... 
+374 bytes for ./Payload/再战皇城.app/archived-expanded-entitlements.xcent
+copying file ./Payload/再战皇城.app/Assets.car ... 
+2017-12-18 06:40:16 +0000  4889752 bytes for ./Payload/再战皇城.app/Assets.car
+2017-12-18 06:40:16 +0000  copying file ./Payload/再战皇城.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2302 bytes for ./Payload/再战皇城.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/再战皇城.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/再战皇城.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/再战皇城.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2017-12-18 06:40:16 +0000  832 bytes for ./Payload/再战皇城.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/再战皇城.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2017-12-18 06:40:16 +0000  1790 bytes for ./Payload/再战皇城.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/再战皇城.app/Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Payload/再战皇城.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/再战皇城.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+916 bytes for ./Payload/再战皇城.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/再战皇城.app/embedded.mobileprovision ... 
+8167 bytes for ./Payload/再战皇城.app/embedded.mobileprovision
+copying file ./Payload/再战皇城.app/Info.plist ... 
+3363 bytes for ./Payload/再战皇城.app/Info.plist
+copying file ./Payload/再战皇城.app/PageControlCollectionViewCell.nib ... 
+1283 bytes for ./Payload/再战皇城.app/PageControlCollectionViewCell.nib
+copying file ./Payload/再战皇城.app/PageControlView.nib ... 
+2017-12-18 06:40:16 +0000  1905 bytes for ./Payload/再战皇城.app/PageControlView.nib
+copying file ./Payload/再战皇城.app/PkgInfo ... 
+8 bytes for ./Payload/再战皇城.app/PkgInfo
+copying file ./Payload/再战皇城.app/再战皇城 ... 
+2017-12-18 06:40:16 +0000  177952 bytes for ./Payload/再战皇城.app/再战皇城
+2017-12-18 06:40:16 +0000  
+2017-12-18 06:40:16 +0000  2017-12-18 06:40:16 +0000  /usr/bin/ditto exited with 0
+
+2017-12-18 06:40:16 +0000  
+2017-12-18 06:40:16 +0000  Processing step: IDEDistributionCreateManifestStep

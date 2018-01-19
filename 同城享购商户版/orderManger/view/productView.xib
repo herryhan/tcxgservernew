@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iYn-rv-gyI" customClass="productView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgImage" translatesAutoresizingMaskIntoConstraints="NO" id="dgO-GN-ADR">
+                    <rect key="frame" x="10" y="10" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="q5A-lK-nZL"/>
+                        <constraint firstAttribute="width" constant="60" id="zKC-aV-oYC"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSf-Kh-ypt">
+                    <rect key="frame" x="78" y="10" width="287" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="1W6-R8-OUK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBQ-jg-XB7">
+                    <rect key="frame" x="78" y="50" width="287" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="Qv5-9t-7SE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="1" green="0.13121972330000001" blue="0.1150242313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="239色块" translatesAutoresizingMaskIntoConstraints="NO" id="fFo-Ix-gxo">
+                    <rect key="frame" x="10" y="79.5" width="355" height="0.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="KHk-zj-NKj"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="DBQ-jg-XB7" firstAttribute="top" secondItem="RSf-Kh-ypt" secondAttribute="bottom" constant="20" id="6My-tk-yjm"/>
+                <constraint firstItem="RSf-Kh-ypt" firstAttribute="top" secondItem="iYn-rv-gyI" secondAttribute="top" constant="10" id="Gpa-cl-cpO"/>
+                <constraint firstItem="dgO-GN-ADR" firstAttribute="leading" secondItem="iYn-rv-gyI" secondAttribute="leading" constant="10" id="Hfe-tj-5iI"/>
+                <constraint firstItem="dgO-GN-ADR" firstAttribute="top" secondItem="iYn-rv-gyI" secondAttribute="top" constant="10" id="O7j-bE-Ec6"/>
+                <constraint firstItem="fFo-Ix-gxo" firstAttribute="leading" secondItem="iYn-rv-gyI" secondAttribute="leading" constant="10" id="Tla-DJ-Je3"/>
+                <constraint firstAttribute="trailing" secondItem="DBQ-jg-XB7" secondAttribute="trailing" constant="10" id="mn4-RC-kcY"/>
+                <constraint firstItem="RSf-Kh-ypt" firstAttribute="leading" secondItem="dgO-GN-ADR" secondAttribute="trailing" constant="8" id="o6T-B0-8zA"/>
+                <constraint firstAttribute="trailing" secondItem="fFo-Ix-gxo" secondAttribute="trailing" constant="10" id="pQe-Sh-Xbl"/>
+                <constraint firstAttribute="bottom" secondItem="fFo-Ix-gxo" secondAttribute="bottom" id="vgb-kC-GTy"/>
+                <constraint firstAttribute="trailing" secondItem="RSf-Kh-ypt" secondAttribute="trailing" constant="10" id="xDb-DE-eR1"/>
+                <constraint firstItem="DBQ-jg-XB7" firstAttribute="leading" secondItem="dgO-GN-ADR" secondAttribute="trailing" constant="8" id="zXn-eZ-z8t"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="goodsImageView" destination="dgO-GN-ADR" id="bgY-kB-5bW"/>
+                <outlet property="goodsNameLabel" destination="RSf-Kh-ypt" id="NzW-Fh-fdn"/>
+                <outlet property="priceLabel" destination="DBQ-jg-XB7" id="a9z-m3-fXp"/>
+            </connections>
+            <point key="canvasLocation" x="-162.5" y="146"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="239色块" width="1" height="1"/>
+        <image name="bgImage" width="74" height="67"/>
+    </resources>
+</document>

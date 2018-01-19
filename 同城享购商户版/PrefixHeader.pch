@@ -1,0 +1,68 @@
+//
+//  PrefixHeader.pch
+//  同城享购商户版
+//
+//  Created by 韩先炜 on 2017/11/22.
+//  Copyright © 2017年 韩先炜. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+#define IPHONE5 (([UIScreen mainScreen].bounds.size.width) == 320)
+#define IPHONE6 (([UIScreen mainScreen].bounds.size.width) == 375)
+#define IPHONE6_PLUS (([UIScreen mainScreen].bounds.size.width) == 414)
+#define IPHONE_X (([UIScreen mainScreen].bounds.size.height) == 812)
+#define SafeAreaTopHeight (IPHONE_X ? 88 : 64)
+#define SafeAreaBottomHeight (IPHONE_X ? 83 : 49)
+
+#define del ((AppDelegate *)[[UIApplication sharedApplication] delegate])
+
+#define UIColorFromHexWithAlpha(hexValue,a) [UIColor colorWithRed:((float)((hexValue & 0xFF0000) >> 16))/255.0 green:((float)((hexValue & 0xFF00) >> 8))/255.0 blue:((float)(hexValue & 0xFF))/255.0 alpha:a]
+#define UIColorFromHex(hexValue)            UIColorFromHexWithAlpha(hexValue,1.0)
+#define UIColorFromRGBA(r,g,b,a)            [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+#define UIColorFromRGB(r,g,b)               UIColorFromRGBA(r,g,b,1.0)
+
+#define IOS7 [[[UIDevice currentDevice] systemVersion] floatValue]>=7.0
+#define IOS8 [[[UIDevice currentDevice] systemVersion] floatValue]>=8.0
+
+#define declareWeakSelf __weak typeof(self) weakSelf = self;
+
+#define JSBundleVersion   ((NSString *)[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"])
+#define Uid @"5101070e-d281-4d62-93ab-59ce7329a992"
+#define dbPath [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:@"user.sqlite"]
+//#import "GSKeyChainDataManager.h"
+//#import "GSKeyChain.h"
+
+// 相对iphone6 屏幕比
+#define KWidth_ScaleW [UIScreen mainScreen].bounds.size.width/375.0f
+#define KWidth_ScaleH [UIScreen mainScreen].bounds.size.height/736.0f
+
+#import <YYKit.h>
+#import "URLRequest.h"
+#import "cityShoppingTool.h"
+//#import <CoreLocation/CoreLocation.h>
+#import "SPAccount.h"
+#import "SPAccountTool.h"
+#import "JTBaseNavigationController.h"
+#import "JTNavigationController.h"
+#import <FMDB.h>
+
+#import "MBProgressHUD.h"
+//#import "hudCustom.h"
+#import <UIImageView+WebCache.h>
+#import "UIView+SDAutoLayout.h"
+#import "UITableView+SDAutoTableViewCellHeight.h"
+#import "YYClassInfo.h"
+#import <MJRefresh.h>
+#import "MBProgressHUD+HxwHud.h"
+#import "keepData.h"
+
+
+#endif /* PrefixHeader_pch */
